@@ -31,3 +31,38 @@ Name: Booleans
     Type: bool
     Description: Logical value indicating True or False
 
+
+--------- VARIABLE ASSIGNMENT ---------
+Rules for variable names
+    Names cannot start with a number
+    There can be no spaces, use _ instead
+    In general don't use symbols
+    Best practice to use lowercase
+    Avoid words with special meaning in python (list, str)
+
+Python uses Dynamic Typing
+    You can reassign variables to different data TYPES
+        myDogs = 2
+        myDogs = ["Sammy", "Zezal"]
+    Pros of Dynamic Typing:
+        Easy to work with
+        Faster development time
+    Cons:
+        May result in bugs for unexpected data types 
+        Be aware of type()
+            x = 2
+            type(x) (returns int)
+            y = 2.1 
+            type(y) (returns float)
+
+
+--------- INTRO TO STRINGS ---------
+Strings are ordered sequences and immutable 
+    Meaning we can use indexing and slicing
+        Indexing uses []
+            myWord = "Hello"
+            myWord[2] (returns l)
+        Reverse Indexing (0, -4, -3, -2, -1)
+                         (H   E   L   L   O)
+        Slicing allows you to grab a subsection of multiple characters
+            uses [start:stop:step] (when to start slice: where to end slice: size of hops)
