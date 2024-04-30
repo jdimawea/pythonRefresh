@@ -1,0 +1,31 @@
+Name: Integers 
+    Type: int
+    Description: Whole numbers, such as (3, 300, 200)
+    
+Name: Floating point
+    Type: float
+    Description: Numbers with a decimal point (2.3, 4.6, 100.0)
+
+Name: Strings
+    Type: str
+    Description: Ordered sequence of characters ("hello", 'Sammy', "2000", "diff Lang")
+
+Name: Lists
+    Type: list
+    Description: Ordered sequence of objects (10, "hello", 200.3)
+
+Name: Dictionarie
+    Type: dict
+    Description: Unordered Key:Value pairs {"mykey":"value", "name":"Johnny"}
+
+Name: Tuples
+    Type: tup
+    Description: Ordered immutable sequence of objects (10, "hello", 200.3)
+
+Name: Sets
+    Type: set
+    Description: Unordered collection of unique objects {"a", "b"}
+
+Name: Booleans
+    Type: bool
+    Description: Logical value indicating True or False
