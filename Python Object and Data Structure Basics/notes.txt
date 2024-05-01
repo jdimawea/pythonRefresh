@@ -66,3 +66,9 @@ Strings are ordered sequences and immutable
                          (H   E   L   L   O)
         Slicing allows you to grab a subsection of multiple characters
             uses [start:stop:step] (when to start slice: where to end slice: size of hops)
+
+Formatting with the .format() method
+    A good way to format objects into your strings for print statements is with the string .format() method. 
+        Syntax: 'String here {} then also {}'.format('something', 'something2')
+    Another way to format objects into strings for print statement using f string method.
+        Syntax: print(f'Hello my name is {name}')
