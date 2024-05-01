@@ -1,85 +1,110 @@
 --------- DATA TYPES/STRUCTURES ---------
-Name: Integers 
-    Type: int
-    Description: Whole numbers, such as (3, 300, 200)
+    Name: Integers 
+        Type: int
+        Description: Whole numbers, such as (3, 300, 200)
 
-Name: Floating point
-    Type: float
-    Description: Numbers with a decimal point (2.3, 4.6, 100.0)
+    Name: Floating point
+        Type: float
+        Description: Numbers with a decimal point (2.3, 4.6, 100.0)
 
-Name: Strings
-    Type: str
-    Description: Ordered sequence of characters ("hello", 'Sammy', "2000", "diff Lang")
+    Name: Strings
+        Type: str
+        Description: Ordered sequence of characters ("hello", 'Sammy', "2000", "diff Lang")
 
-Name: Lists
-    Type: list
-    Description: Ordered sequence of objects (10, "hello", 200.3)
+    Name: Lists
+        Type: list
+        Description: Ordered sequence of objects (10, "hello", 200.3)
 
-Name: Dictionaries
-    Type: dict
-    Description: Unordered Key:Value pairs {"mykey":"value", "name":"Johnny"}
+    Name: Dictionaries
+        Type: dict
+        Description: Unordered Key:Value pairs {"mykey":"value", "name":"Johnny"}
 
-Name: Tuples
-    Type: tup
-    Description: Ordered immutable sequence of objects (10, "hello", 200.3)
+    Name: Tuples
+        Type: tup
+        Description: Ordered immutable sequence of objects (10, "hello", 200.3)
 
-Name: Sets
-    Type: set
-    Description: Unordered collection of unique objects {"a", "b"}
+    Name: Sets
+        Type: set
+        Description: Unordered collection of unique objects {"a", "b"}
 
-Name: Booleans
-    Type: bool
-    Description: Logical value indicating True or False
+    Name: Booleans
+        Type: bool
+        Description: Logical value indicating True or False
 
 
 --------- VARIABLE ASSIGNMENT ---------
-Rules for variable names
-    Names cannot start with a number
-    There can be no spaces, use _ instead
-    In general don't use symbols
-    Best practice to use lowercase
-    Avoid words with special meaning in python (list, str)
+    - Rules for variable names
+        Names cannot start with a number
+        There can be no spaces, use _ instead
+        In general don't use symbols
+        Best practice to use lowercase
+        Avoid words with special meaning in python (list, str)
 
-Python uses Dynamic Typing
-    You can reassign variables to different data TYPES
-        myDogs = 2
-        myDogs = ["Sammy", "Zezal"]
-    Pros of Dynamic Typing:
-        Easy to work with
-        Faster development time
-    Cons:
-        May result in bugs for unexpected data types 
-        Be aware of type()
-            x = 2
-            type(x) (returns int)
-            y = 2.1 
-            type(y) (returns float)
+    - Python uses Dynamic Typing
+        You can reassign variables to different data TYPES
+            myDogs = 2
+            myDogs = ["Sammy", "Zezal"]
+        Pros of Dynamic Typing:
+            Easy to work with
+            Faster development time
+        Cons:
+            May result in bugs for unexpected data types 
+            Be aware of type()
+                x = 2
+                type(x) (returns int)
+                y = 2.1 
+                type(y) (returns float)
 
 
 --------- INTRO TO STRINGS ---------
-Strings are ordered sequences and immutable 
-    Meaning we can use indexing and slicing
-        Indexing uses []
-            myWord = "Hello"
-            myWord[2] (returns l)
-        Reverse Indexing (0, -4, -3, -2, -1)
-                         (H   E   L   L   O)
-        Slicing allows you to grab a subsection of multiple characters
-            uses [start:stop:step] (when to start slice: where to end slice: size of hops)
+    - Strings are ordered sequences and immutable 
+        Meaning we can use indexing and slicing
+            Indexing uses []
+                myWord = "Hello"
+                myWord[2] (returns l)
+            Reverse Indexing (0, -4, -3, -2, -1)
+                            (H   E   L   L   O)
+            Slicing allows you to grab a subsection of multiple characters
+                uses [start:stop:step] (when to start slice: where to end slice: size of hops)
 
-Formatting with the .format() method
-    A good way to format objects into your strings for print statements is with the string .format() method. 
-        Syntax: 'String here {} then also {}'.format('something', 'something2')
-    Another way to format objects into strings for print statement using f string method.
-        Syntax: print(f'Hello my name is {name}')
+    - Formatting with the .format() method
+        A good way to format objects into your strings for print statements is with the string .format() method. 
+            Syntax: 'String here {} then also {}'.format('something', 'something2')
+        Another way to format objects into strings for print statement using f string method.
+            Syntax: print(f'Hello my name is {name}')
 
---------- Lists ---------
-Lists are ordered sequences that can hold a variety of object types.
-They use [] brackets and commas to separate objects in the list.
-    [1, 2, 3, 4, 5]
-Lists support indexing and slicing. Lists can be nested and also have a variety of useful methods that can be called off of them.
-List methods
-    .append()
-        places any item at the end of a string
-    .pop() 
-        removes any item at the end of a string
+
+--------- LISTS ---------
+    - Lists are ordered sequences that can hold a variety of object types.
+    - They use [] brackets and commas to separate objects in the list.
+        [1, 2, 3, 4, 5]
+    - Lists support indexing and slicing. Lists can be nested and also have a variety of useful methods that can be called off of them.
+    - List methods
+        .append()
+            places any item at the end of a string
+        .pop() 
+            removes any item at the end of a string
+        .sort()
+            sorts the list in ascending ordered
+        .reverse()
+            reverses the content of the list ([1,2,3] becomes [3,2,1])
+
+
+--------- DICTIONARIES ---------
+    - Dictionaries are unordered mappings for storing objects.
+    - Dictionaries use a key-value pairing.
+        Key-Value pair allows users to quickly grab objects without needing to know an index location.
+    - Dictionaries use curly braces and colons to signify the keys and their associated values.
+        {'key1':'value1', 'key2':'value2'}
+    - When to choose a list and when to choose a dictionary?
+        Dictionaries: Objects retrieved by key name
+            Unordered and can not be sorted
+        Lists: Objects retrieved by location.
+            Ordered Sequence can be indexed or sliced. 
+    - Dictionaries methods
+        .keys()
+            returns the keys
+        .values()
+            returns the values
+        .items()
+            returns the key:value pairs
