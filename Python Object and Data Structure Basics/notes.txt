@@ -72,3 +72,14 @@ Formatting with the .format() method
         Syntax: 'String here {} then also {}'.format('something', 'something2')
     Another way to format objects into strings for print statement using f string method.
         Syntax: print(f'Hello my name is {name}')
+
+--------- Lists ---------
+Lists are ordered sequences that can hold a variety of object types.
+They use [] brackets and commas to separate objects in the list.
+    [1, 2, 3, 4, 5]
+Lists support indexing and slicing. Lists can be nested and also have a variety of useful methods that can be called off of them.
+List methods
+    .append()
+        places any item at the end of a string
+    .pop() 
+        removes any item at the end of a string
