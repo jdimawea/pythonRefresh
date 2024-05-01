@@ -123,3 +123,5 @@
 
 
 --------- SETS ---------
+    - Sets are unordered collections of unique elements.
+        There can only be one representative of the same object
