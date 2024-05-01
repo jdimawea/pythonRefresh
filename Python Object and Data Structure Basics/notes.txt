@@ -108,3 +108,18 @@
             returns the values
         .items()
             returns the key:value pairs
+
+
+--------- Tuples ---------
+    - Tuples are very similar to lists. However they are immutable 
+    - Once an element is inside a tuple, it cannot be reassigned
+    - Tuples use parenthesis: (1, 2, 3)
+    - Can mix object types
+    - Methods for Tuples  
+        .index()
+            returns the first time an object appears in a tuple 
+        .count()
+            returns how many times the object occurs in the tupple
+
+
+--------- SETS ---------
