@@ -1,0 +1,21 @@
+--------- IF, ELIF, ELSE ---------
+    Control Flow
+        Executes certain code when a particular condition has been met
+            ex: IF my dog is hungry (condition), then I will feed the dog (action) 
+        Keywords:
+            - if 
+            - elif 
+            - else  
+        Control Flow syntax makes use of colons and indentation (whitespace)
+            - if/else
+                if some_condition:
+                    # execute some code
+                else:
+                    # execute something else
+            - if/elif/else 
+                if some_condition:
+                    # execute some code
+                elif another_condition:
+                    # execute different code
+                else:
+                    # execute something else  
