@@ -125,3 +125,8 @@
 --------- SETS ---------
     - Sets are unordered collections of unique elements.
         There can only be one representative of the same object
+
+
+--------- BOOLEANS ---------
+    - Booleans are operators that allow you to convey True or False statements.
+        Important for dealing with control flow and logic
