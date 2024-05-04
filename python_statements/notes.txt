@@ -19,3 +19,19 @@
                     # execute different code
                 else:
                     # execute something else  
+
+
+--------- FOR LOOPS ---------
+    Many objects in Python are 'iterable',
+        Meaning we can iterate over every element in the object.
+            For example: every element in a list or every character in a string or key in a dictionary
+        We can use for loops to execute a block of code for every iteration
+    Syntax for a for loop
+        my_iterable = [1, 2, 3]
+        for item_name in my_iterable:
+            print(item_name)
+        
+        # returns  
+        >>1
+        >>2
+        >>3
