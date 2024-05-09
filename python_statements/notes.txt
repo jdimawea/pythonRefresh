@@ -55,4 +55,7 @@
 
 --------- USEFUL OPERATORS ---------
     mylist = [1, 2, 3]
-        
+    enumerate()
+        returns the index and element from a iterable object.  
+    zip(list1, list2, list3, ...)
+        Returns as much as the shortest list
