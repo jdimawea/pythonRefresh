@@ -35,3 +35,21 @@
         >>1
         >>2
         >>3
+
+
+--------- WHILE LOOPS ---------
+    While loops continue to execute a block of code while some conditon remains True.
+        - Ex: while my pool is not full, keep filling my pool with water.
+        - Ex: while my dogs are still hungry, keep feeding my dogs 
+    Syntax of a while loop
+        while some_boolean_condition:
+            #do something
+        else:
+            #do something different
+    break, continue, pass
+        We can use, break, continue, and pass statements in our loops to add additional functionality for various cases. 
+            - break: Breaks out of the current closest enclosing loop.
+            - continue: Goes to the top of the closest enclosing loop. 
+            - pass: Does nothing at all. 
+
+        
