@@ -59,3 +59,10 @@
         returns the index and element from a iterable object.  
     zip(list1, list2, list3, ...)
         Returns as much as the shortest list
+    in
+        Returns True or False
+        'myKey' in d.keys
+    min()
+        returns the smallest element
+    max()
+        returns the largest element
