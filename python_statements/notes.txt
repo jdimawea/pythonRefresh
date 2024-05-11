@@ -66,3 +66,12 @@
         returns the smallest element
     max()
         returns the largest element
+
+
+--------- LIST COMPREHENSIONS ---------
+    Quick way of creating a list with Python
+    Different way of creating a list instead of for loop and append()
+    Syntax
+        list = [element for element in mylist]
+
+    
